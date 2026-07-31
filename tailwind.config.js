@@ -1,0 +1,23 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        cream: {
+          bg: "#f7f3ee",
+          card: "#ebdccc",
+          dark: "#3d3330",
+          accent: "#ffb7b2",
+        },
+      },
+      borderRadius: {
+        xl2: "1.25rem",
+      },
+    },
+  },
+  plugins: [],
+};
